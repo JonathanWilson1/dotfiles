@@ -1,4 +1,10 @@
-## components
+## Overview
+
+- Aimed towards iOS but accommodation for some web and backend work
+- Visual Studio Code as editor
+- (Spaceship terminal theme)[https://github.com/spaceship-prompt/spaceship-prompt]
+
+## Components
 
 There's a few special files in the hierarchy.
 
@@ -16,7 +22,7 @@ There's a few special files in the hierarchy.
   but still keep those autoloaded files in your home directory. These get
   symlinked in when you run `script/bootstrap`.
 
-## install
+## Install
 
 Run this:
 
