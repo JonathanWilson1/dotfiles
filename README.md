@@ -32,7 +32,14 @@ Everything is configured and tweaked within `~/.dotfiles`.
 The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
 which sets up a few paths that'll be different on your particular machine.
 
+Primarily `export PROJECTS=~/Developer`, but `Developer` is a nice one to store your projects as you get a nice icon in finder ;)
+
 `dot` is a simple script that installs some dependencies, sets sane macOS
 defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
+
+## Inspiration
+
+https://github.com/holman/dotfiles
+https://github.com/jacobwgillespie/dotfiles

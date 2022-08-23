@@ -6,3 +6,5 @@ zstyle ':completion:*' insert-tab pending
 
 # Error when terminal launched - https://stackoverflow.com/a/63447799
 for f in $(compaudit);do sudo chmod -R 755 $f;done;
+
+cd $PROJECTS

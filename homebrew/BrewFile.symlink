@@ -1,5 +1,13 @@
 brew 'circleci'
-
+brew 'heroku-node'
+brew 'mkcert'
+brew 'mongodb-database-tools'
+brew 'heroku'
+brew 'icu4c'
+brew 'mongodb-community'
+brew 'node'
+brew 'yarn'
+brew 'zsh-autosuggestions'
 
 # Zsh theme - https://github.com/spaceship-prompt/spaceship-prompt
 brew "spaceship"
