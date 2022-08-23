@@ -8,6 +8,7 @@ brew 'mongodb-community'
 brew 'node'
 brew 'yarn'
 brew 'cocoapods'
+brew 'zsh-autosuggestions'
 
 # # Make VSCode the default when opening files - https://stackoverflow.com/a/70402997
 brew 'duti'
