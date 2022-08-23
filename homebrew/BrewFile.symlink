@@ -1,0 +1,5 @@
+brew 'circleci'
+
+
+# Zsh theme - https://github.com/spaceship-prompt/spaceship-prompt
+brew "spaceship"
