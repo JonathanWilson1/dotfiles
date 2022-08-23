@@ -13,5 +13,7 @@
   },
   "editor.formatOnSave": true,
   "cSpell.words": ["brewfile", "dotfiles", "gitignore", "symlink", "symlinked", "symlinks", "tweetbot"],
-  "prettier.prettierPath": "node_modules/prettier/index.js"
+  "prettier.prettierPath": "node_modules/prettier/index.js",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
 }

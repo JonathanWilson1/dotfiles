@@ -56,4 +56,6 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
 
 # https://github.com/zsh-users/zsh-autosuggestions
+# These should be prefixed with homebrew's HOMEBREW_PREFIX
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -9,10 +9,13 @@ brew 'node'
 brew 'yarn'
 brew 'cocoapods'
 brew 'zsh-autosuggestions'
+brew 'zsh-syntax-highlighting'
 
 # # Make VSCode the default when opening files - https://stackoverflow.com/a/70402997
 brew 'duti'
 brew 'yq'
 
 # Zsh theme - https://github.com/spaceship-prompt/spaceship-prompt
-brew "spaceship"
+brew 'spaceship'
+tap 'homebrew/cask-fonts'
+cask 'font-fira-code'
