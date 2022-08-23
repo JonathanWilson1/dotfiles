@@ -2,7 +2,8 @@
 
 - Aimed towards iOS but accommodation for some web and backend work
 - Visual Studio Code as editor
-- (Spaceship terminal theme)[https://github.com/spaceship-prompt/spaceship-prompt]
+- [Spaceship terminal theme](https://github.com/spaceship-prompt/spaceship-prompt)
+- [Auto Suggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
 ## Components
 
@@ -47,5 +48,5 @@ this script in `bin/`.
 
 ## Inspiration
 
-https://github.com/holman/dotfiles
-https://github.com/jacobwgillespie/dotfiles
+- [holman/dotfiles](https://github.com/holman/dotfiles)
+- [jacobwgillespie/dotfiles](https://github.com/jacobwgillespie/dotfiles)
