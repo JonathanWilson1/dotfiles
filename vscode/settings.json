@@ -12,11 +12,23 @@
     "*.yml.symlink": "yaml"
   },
   "editor.formatOnSave": true,
-  "cSpell.words": ["brewfile", "dotfiles", "gitignore", "symlink", "symlinked", "symlinks", "tweetbot"],
+  "cSpell.words": [
+    "brewfile",
+    "dotfiles",
+    "gitignore",
+    "symlink",
+    "symlinked",
+    "symlinks",
+    "tweetbot"
+  ],
   "prettier.prettierPath": "node_modules/prettier/index.js",
   "editor.fontFamily": "Fira Code",
   "security.workspace.trust.banner": "never",
   "editor.fontLigatures": true,
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Dracula Refined",
+  "telemetry.telemetryLevel": "off",
+  "editor.fontSize": 16,
+  "security.workspace.trust.enabled": false
 }
