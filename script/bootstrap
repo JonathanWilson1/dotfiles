@@ -137,6 +137,16 @@ install_dotfiles () {
   done
 }
 
+install_vs_settings () {
+  info 'installing VsCode'
+
+  local overwrite_all=false backup_all=false skip_all=false
+
+
+  mkdir -p "$HOME/Library/Application Support/Code/User/"
+  link_file "$DOTFILES_ROOT/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
+}
+
 setup_gitconfig
 install_dotfiles
 
@@ -151,6 +161,8 @@ then
     fail "error installing dependencies"
   fi
 fi
+
+install_vs_settings
 
 echo ''
 echo '  All installed!'

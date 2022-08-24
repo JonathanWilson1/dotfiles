@@ -15,5 +15,8 @@
   "cSpell.words": ["brewfile", "dotfiles", "gitignore", "symlink", "symlinked", "symlinks", "tweetbot"],
   "prettier.prettierPath": "node_modules/prettier/index.js",
   "editor.fontFamily": "Fira Code",
+  "security.workspace.trust.banner": "never",
   "editor.fontLigatures": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none"
 }
