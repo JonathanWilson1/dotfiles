@@ -1,18 +1,15 @@
 cask 'visual-studio-code'
 
 brew 'circleci'
-brew 'heroku-node'
 brew 'mkcert'
-brew 'mongodb-database-tools'
-brew 'heroku'
 brew 'icu4c'
-brew 'mongodb-community'
 brew 'node'
 brew 'yarn'
 brew 'cocoapods'
 brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
-
+brew 'mint'
+brew 'gpg'
 
 
 # Make VSCode the default when opening files - https://stackoverflow.com/a/70402997

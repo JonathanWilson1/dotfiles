@@ -30,5 +30,6 @@
   "workbench.colorTheme": "Dracula Refined",
   "telemetry.telemetryLevel": "off",
   "editor.fontSize": 16,
-  "security.workspace.trust.enabled": false
+  "security.workspace.trust.enabled": false,
+  "explorer.confirmDelete": false
 }
