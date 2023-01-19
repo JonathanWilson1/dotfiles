@@ -16,13 +16,11 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = vim
+        editor = code --wait
 [apply]
         whitespace = nowarn
 [mergetool]
         keepBackup = false
-[difftool]
-        prompt = false
 [help]
         autocorrect = 1
 [push]
@@ -34,9 +32,12 @@
 	autoSetupRemote = true
 [credential]
 	helper = osxkeychain
-[diff "spaceman-diff"]
-  command = /opt/homebrew/bin/spaceman-diff
-
+[diff]
+        tool = vscode
+[difftool]
+        prompt = false
+[difftool "vscode"]
+        cmd = code --wait --diff $LOCAL $REMOTE
 [init]
 	defaultBranch = main
 [user]
@@ -46,7 +47,6 @@
 [commit]
 	gpgsign = true
 [merge]
-	tool = diffmerge
-[mergetool "diffmerge"]
-	cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
-	trustExitCode = true
+	tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
