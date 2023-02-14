@@ -52,12 +52,22 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
+export ZPLUG_HOME=/opt/homebrew/opt/zplug
+source $ZPLUG_HOME/init.zsh
+
+# https://github.com/zsh-users/zsh-autosuggestions
+zplug "zsh-users/zsh-autosuggestions", defer:2
+# https://github.com/zsh-users/zsh-syntax-highlighting
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+
+zplug load
+zplug install
+
+export GPG_TTY=$(tty)
+
+export SPACESHIP_CONFIG="./spaceship.zsh"
+
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
 
-# https://github.com/zsh-users/zsh-autosuggestions
-# These should be prefixed with homebrew's HOMEBREW_PREFIX
-source /zsh-autosuggestions/zsh-autosuggestions.zsh
-source /zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-export GPG_TTY=$(tty)
+source /opt/homebrew/opt/spaceship/spaceship.zsh

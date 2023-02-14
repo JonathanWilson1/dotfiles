@@ -25,12 +25,13 @@ There's a few special files in the hierarchy.
 
 ## Install
 
+⚠️ Expects you to have a folder `Developer`
+
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-script/bootstrap
+git clone https://github.com/holman/dotfiles.git
+dotfiles/script/bootstrap
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
@@ -39,12 +40,8 @@ Everything is configured and tweaked within `~/.dotfiles`.
 The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
 which sets up a few paths that'll be different on your particular machine.
 
-Primarily `export PROJECTS=~/Developer`, but `Developer` is a nice one to store your projects as you get a nice icon in finder ;)
-
-`dot` is a simple script that installs some dependencies, sets sane macOS
-defaults, and so on. Tweak this script, and occasionally run `dot` from
-time to time to keep your environment fresh and up-to-date. You can find
-this script in `bin/`.
+## Themes
+Terminal theme is just copied manually at this stage, use the import to pull in the Dracula file, change font to `Fira code Regular` size 16.
 
 ## Inspiration
 

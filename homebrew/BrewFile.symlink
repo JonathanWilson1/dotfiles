@@ -6,11 +6,9 @@ brew 'icu4c'
 brew 'node'
 brew 'yarn'
 brew 'cocoapods'
-brew 'zsh-autosuggestions'
-brew 'zsh-syntax-highlighting'
 brew 'mint'
 brew 'gpg'
-
+brew 'zplug' # https://github.com/zplug/zplug
 
 # Make VSCode the default when opening files - https://stackoverflow.com/a/70402997
 brew 'duti'
@@ -20,3 +18,5 @@ brew 'yq'
 brew 'spaceship'
 tap 'homebrew/cask-fonts'
 cask 'font-fira-code'
+tap 'dracula/install'
+cask "dracula-terminal"

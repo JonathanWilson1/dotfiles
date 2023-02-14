@@ -1,5 +1,7 @@
-export LSCOLORS="exfxcxdxbxegedabagacad"
-export CLICOLOR=true
+# https://github.com/nathanbuchar/atom-one-dark-terminal
+# Import theme by the button in Terminal....
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
 
 fpath=($ZSH/functions $fpath)
 
