@@ -44,8 +44,6 @@
 	name = Jonathan Wilson
 	email = 5080673+JonathanWilson1@users.noreply.github.com
 	signingkey = 45E0A2749B77090E
-[commit]
-	gpgsign = true
 [merge]
 	tool = vscode
 [mergetool "vscode"]

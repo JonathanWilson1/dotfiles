@@ -1,0 +1,5 @@
+[user]
+        name = Jonathan Wilson
+        email = 5080673+JonathanWilson1@users.noreply.github.com
+[credential]
+        helper = osxkeychain
