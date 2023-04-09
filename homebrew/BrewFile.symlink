@@ -20,3 +20,7 @@ tap 'homebrew/cask-fonts'
 cask 'font-fira-code'
 tap 'dracula/install'
 cask "dracula-terminal"
+cask "google-chrome"
+cask "sf-symbols"
+cask "db-browser-for-sqlite"
+cask "simsim"
